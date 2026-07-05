@@ -52,7 +52,7 @@ mostly non-term-level editorial knowledge).
 
 Parse dumps → stratify edges with the FROZEN v1 classifier (§5.1) → draw frozen
 splits (§5.2) → features/encoder (§5.3) → evaluate vs baseline on held-out edges
-(§5.4–5.5) → mine + verify + dedup candidates (§5.6–5.7).
+(§5.4-5.5) → mine + verify + dedup candidates (§5.6-5.7).
 
 ## 5. Analysis plan (locked)
 
@@ -63,12 +63,12 @@ Strata: **S1** duplicate/essentially-the-same · **S2** transform-of (battery §
 
 The classifier is the code at `src/stratify.py` as of the lock commit (regexes +
 rule order are normative; unit-tested in `tests/test_stratify.py`). Rules, per
-%Y mention: (1) name-based duplicate ("Duplicate of A…" naming the other
+%Y mention: (1) name-based duplicate ("Duplicate of A..." naming the other
 endpoint) → S1; (2) mention-attached parenthetical s1-cue → S1; (3) "all
 essentially the same" cluster sentence containing the target → S1; (4) s1-cue
 immediately preceding the target's A-number → S1; (5) paren s2-cue (battery
 fingerprints) → S2; (6) name-based transform cue naming the other endpoint
-("First differences of A…", "complement of A…", "twice A…") → S2;
+("First differences of A...", "complement of A...", "twice A...") → S2;
 (7) constant-type endpoint (name starts with decimal/continued-fraction/base
 expansion, or keyword `cons` without `core`) → S4; (8) sentence-scoped s2-cue
 where the target is the only A-number in its paren-stripped sentence → S2;
