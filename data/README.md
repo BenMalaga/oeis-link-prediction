@@ -20,7 +20,7 @@ curl -A "Mozilla/5.0" https://oeis.org/stripped.gz -o data/stripped.gz   # 31,65
 curl -A "Mozilla/5.0" https://oeis.org/names.gz   -o data/names.gz       # 7,499,817 B; 396,756 name rows (307 extra = "allocated" placeholders, join on A-number)
 
 # Full sequence pages incl. %Y cross-references (ground truth). seq/ is plain text in
-# 397 subdirs (seq/A000/A000045.seq … seq/A396/); only files/** (b-files) is Git-LFS.
+# 397 subdirs (seq/A000/A000045.seq ... seq/A396/); only files/** (b-files) is Git-LFS.
 # DONE 2026-06-10 (Stage 1): cloned with --no-checkout, since the pack alone is ~341 MB,
 # while a full checkout would materialize ~400k tiny .seq files + ~600k LFS pointer
 # stubs (>1.5 GB of 4 KB APFS blocks). All parsing streams blobs from the pack via

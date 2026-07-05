@@ -15,7 +15,7 @@ mathematical pattern learning.
 
 **IntSeqBERT** (Nakasho, arXiv:2603.05556) is the closest representation-learning work: a
 91.5M-parameter dual-stream encoder trained on 274,705 OEIS sequences using log-magnitude
-and sin/cos modulo embeddings (mod 2–101), a feature recipe convergent with ours. Its task,
+and sin/cos modulo embeddings (mod 2-101), a feature recipe convergent with ours. Its task,
 however, is masked-element and next-term prediction, not inter-sequence relation prediction.
 We cite it as independent validation of the input representation and include a comparable
 encoder baseline; our contribution differs in task, evaluation design, and the released
@@ -48,7 +48,7 @@ we test whether *relations between* sequences are recoverable from surface terms
 
 A visible 2026 wave of papers proving individual OEIS-recorded conjectures (e.g.
 arXiv:2606.09913 and the cluster of short proofs of Mathar-conjecture identities in math.CO,
-April–June 2026) sits adjacent: it validates community interest in machine-assisted OEIS
+April-June 2026) sits adjacent: it validates community interest in machine-assisted OEIS
 mathematics but involves no learning-based relation prediction.
 
 ## Positioning
