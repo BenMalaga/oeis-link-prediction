@@ -1,0 +1,11 @@
+{
+  "column": "stratum_v1",
+  "undirected_pairs": 1175100,
+  "undirected_pairs_both_in_stripped": 1175043,
+  "strata_undirected_both_in_stripped": {
+    "s1": 1103,
+    "s2": 10049,
+    "s3": 1107838,
+    "s4": 56053
+  }
+}

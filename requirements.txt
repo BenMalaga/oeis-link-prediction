@@ -1,0 +1,17 @@
+# Stage-1..3 deps, pinned to the versions installed in .venv (Python 3.14).
+numpy==2.4.6
+pandas==3.0.3
+pyarrow==24.0.0
+pytest==8.4.1
+
+# Later-stage deps (encoder/baselines/verification): install + pin when those
+# stages activate; NOT yet installed to keep the project's disk budget small:
+# scipy
+# scikit-learn
+# lightgbm
+# faiss-cpu
+# sympy
+# networkx
+# matplotlib
+# tqdm
+# PARI/GP (gp2c / cypari2) optional for heavier symbolic transform checks

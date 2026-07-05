@@ -1,0 +1,7 @@
+{
+  "loda_programs": 152917,
+  "loda_seq_call_relations_directed": 61400,
+  "loda_seq_call_pairs_undirected": 59717,
+  "sm_strategy": "per-candidate fetch (full repo ~690 MB > disk budget)",
+  "sm_programs_cached": 2
+}

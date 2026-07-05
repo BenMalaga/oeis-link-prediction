@@ -1,0 +1,101 @@
+{
+  "snapshot": {
+    "date": "2026-06-10",
+    "oeisdata_commit": "d42170c973069f33f1ad396f7741ea81e6b08b26",
+    "stripped_rows": 396449,
+    "names_rows": 396756,
+    "names_only_no_terms": 307,
+    "names_only_allocated_placeholders": 307,
+    "live_names_containing_duplicate_of": 1262,
+    "seq_files_in_oeisdata": 396449,
+    "terms_per_seq": {
+      "min": 1,
+      "median": 39.0,
+      "mean": 44.39,
+      "max": 348,
+      "n_lt_8_terms": 12626
+    }
+  },
+  "keywords": {
+    "seq_with_keyword_line": 396449,
+    "counts": {
+      "dead": 1947,
+      "dup": 0,
+      "dupe": 0,
+      "cons": 15024,
+      "base": 45482,
+      "fini": 7444,
+      "sign": 21950,
+      "nonn": 372552
+    },
+    "dead_also_in_stripped": 1947
+  },
+  "edges": {
+    "raw_target_mentions": 1473000,
+    "deduped_directed": 1459880,
+    "undirected_pairs": 1175100,
+    "symmetric_pairs_both_directions": 284780,
+    "asymmetric_pairs_one_direction": 890320,
+    "deduped_directed_both_endpoints_in_stripped": 1459823,
+    "undirected_pairs_both_endpoints_in_stripped": 1175043,
+    "deduped_directed_touching_dead": 858,
+    "link_type_counts_raw_mentions": {
+      "Cf.": 1166068,
+      "other": 272067,
+      "transform": 29962,
+      "duplicate": 2594,
+      "See also": 2309
+    }
+  },
+  "strata_draft_v0": {
+    "note": "heuristics v0 \u2014 descriptive only; classifier frozen + 100-edge audit happens at pre-registration lock",
+    "deduped_directed": {
+      "s3": 1364412,
+      "s4": 74986,
+      "s2": 17953,
+      "s1": 2529
+    },
+    "undirected_pairs": {
+      "s3": 1098308,
+      "s4": 59395,
+      "s2": 15483,
+      "s1": 1914
+    },
+    "undirected_pairs_both_in_stripped": {
+      "s3": 1098252,
+      "s4": 59394,
+      "s2": 15483,
+      "s1": 1914
+    }
+  },
+  "degrees_over_stripped_universe": {
+    "note": "deduped directed graph; zeros included for all stripped.gz seqs",
+    "out_degree": {
+      "mean": 3.682,
+      "median": 2.0,
+      "p90": 8.0,
+      "p99": 25.0,
+      "max": 127
+    },
+    "in_degree": {
+      "mean": 3.682,
+      "median": 1.0,
+      "p90": 8.0,
+      "p99": 34.0,
+      "max": 10089
+    },
+    "undirected_degree_stripped_only_edges": {
+      "mean": 5.928,
+      "median": 3.0,
+      "p90": 12.0,
+      "p99": 45.0,
+      "max": 10100
+    },
+    "isolated_in_undirected_stripped_graph": 67379
+  },
+  "bfiles": {
+    "bfiles_in_oeisdata_tree": 214206,
+    "stripped_seqs_with_bfile": 214206,
+    "fraction_of_stripped": 0.5403
+  }
+}

@@ -1,0 +1,45 @@
+# Data (keep raw data out of git; document access in data/README.md)
+data/*
+!data/.gitkeep
+!data/README.md
+!data/SNAPSHOT.txt
+*.h5
+*.hdf5
+*.nc
+*.parquet
+*.warc
+*.warc.gz
+*.gz
+*.zip
+checkpoints/
+models/
+*.pt
+*.safetensors
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.python-version
+*.egg-info/
+dist/
+build/
+
+# Secrets / env
+.env
+.env.*
+secrets.*
+*.key
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Internal working docs, NEVER publish
+_internal/
+CLAUDE.md
+*LEAD*.md

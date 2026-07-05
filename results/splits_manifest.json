@@ -1,0 +1,121 @@
+{
+  "seed": 42,
+  "test_frac": 0.1,
+  "val_frac": 0.09,
+  "neg_per_pos": 5,
+  "adjacency_exclusion": 20,
+  "min_terms_flag": 8,
+  "eligibility_funnel": {
+    "undirected_pairs": 1175100,
+    "dropped_not_in_stripped": 57,
+    "dropped_touching_dead": 783,
+    "eligible_pairs": 1174260,
+    "eligible_pairs_lt8_flagged": 43162,
+    "negative_universe_nodes": 394502
+  },
+  "stratum_column": "stratum_v1",
+  "snapshot_date": "2026-06-10",
+  "files": {
+    "train": {
+      "path": "data/splits/train.parquet",
+      "sha256": "bfe23b76289af45c787c74af2e54c2b06e611462e33a1d08b2733778a7dedf97",
+      "rows": 5706930
+    },
+    "val": {
+      "path": "data/splits/val.parquet",
+      "sha256": "734cfef45976563f5d667dfed12a62b4686c110d1c412665d9c9716749c4251c",
+      "rows": 634086
+    },
+    "test": {
+      "path": "data/splits/test.parquet",
+      "sha256": "6f8b22d1187b9147eb9330c1c7b51e82dae3e3ca3cc3506cd36d7a27e1c3f944",
+      "rows": 704544
+    }
+  },
+  "counts": {
+    "train": [
+      {
+        "stratum": "neg",
+        "label": 0,
+        "n": 4755775
+      },
+      {
+        "stratum": "s1",
+        "label": 1,
+        "n": 845
+      },
+      {
+        "stratum": "s2",
+        "label": 1,
+        "n": 8138
+      },
+      {
+        "stratum": "s3",
+        "label": 1,
+        "n": 896795
+      },
+      {
+        "stratum": "s4",
+        "label": 1,
+        "n": 45377
+      }
+    ],
+    "val": [
+      {
+        "stratum": "neg",
+        "label": 0,
+        "n": 528405
+      },
+      {
+        "stratum": "s1",
+        "label": 1,
+        "n": 93
+      },
+      {
+        "stratum": "s2",
+        "label": 1,
+        "n": 904
+      },
+      {
+        "stratum": "s3",
+        "label": 1,
+        "n": 99643
+      },
+      {
+        "stratum": "s4",
+        "label": 1,
+        "n": 5041
+      }
+    ],
+    "test": [
+      {
+        "stratum": "neg",
+        "label": 0,
+        "n": 587120
+      },
+      {
+        "stratum": "s1",
+        "label": 1,
+        "n": 104
+      },
+      {
+        "stratum": "s2",
+        "label": 1,
+        "n": 1004
+      },
+      {
+        "stratum": "s3",
+        "label": 1,
+        "n": 110715
+      },
+      {
+        "stratum": "s4",
+        "label": 1,
+        "n": 5601
+      }
+    ]
+  },
+  "code_commit": "7ce93241bb474228ef938d1fecd70b50cffc39ee",
+  "xrefs_v1_sha256": "8f0c74f317016f83ab8f80f6f9ddca92119e2c21626142b2a11f2124e1c05438",
+  "wall_seconds": 56.3
+}
